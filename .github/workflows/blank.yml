@@ -5,7 +5,8 @@ on:
     branches:
     - master
     - develop
-    - dev/v19.2
+    - dev/*
+    - feature/*
 
 jobs:
   build:
